@@ -1,0 +1,58 @@
+.about {
+    background: $background2;
+    height:100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    .wrapper {
+        max-width: 70%;
+        @media screen and (max-width:990px) {
+            padding-top: 100px;
+        }
+        .main-txt {
+            max-width: 100%;
+            width: 100%;
+            align-items: flex-start;
+            @media screen and (max-width:990px) {
+                flex-direction: column-reverse;
+            }
+            .left-txt, .right-txt {
+                max-width: 50%;
+                font-size: 14px;
+                line-height: 28px;
+                display: flex;
+                flex-direction: column;
+                @media screen and (max-width:990px) {
+                    max-width: 100%;
+                    margin-bottom: 40px;
+                }
+                ul {
+                    list-style: none;
+                    padding-left: 0;
+                }
+                p {
+                    font-style: normal;
+                }
+                div {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                    a {
+                    font-size: 14px;
+                    }
+                    a:nth-of-type(1) {
+                        @include btn($color: $white, $radius: 2px);
+                        margin-right: 30px;
+                    }
+                }
+            }
+        
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin: 6vh 0;
+        }
+    }
+}
+
+

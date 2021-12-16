@@ -1,0 +1,13 @@
+.header {
+    @include flex-center;
+    padding: 2% 4%;
+    width: 100%;
+    div {
+        margin-right: auto;
+        text-transform: uppercase;
+    }
+    @media screen and (max-width:990px) {
+        padding: 0;
+    }
+}
+

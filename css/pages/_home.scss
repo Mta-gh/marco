@@ -1,0 +1,24 @@
+// body {
+//     position: relative;
+// }
+
+// body::after {
+//     content: '';
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: $background2;
+//     position: absolute;
+//     z-index: 100;
+//     transform: translateX(100vw);
+//     // animation: 1s ease-out 1 forwards slideout 0.2s;
+//     animation: 1s ease-out 1 forwards slideout 0.2s;
+// }
+
+// .slideout {
+//     position: fixed;
+//     top: 0;
+//     height: 100%;
+//     width: 100%;
+//     background-color: #000;
+//     animation: 1s ease-out 1 forwards slideout 0.2s;
+// }
