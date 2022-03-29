@@ -1,13 +1,9 @@
 // Importing fonts : use @import
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-@font-face {
-    font-family: "Circularpro book";
-    src: url("https://www.marcomarino.design/fonts/CircularPro-Book.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
 html {
-    font-family: "Circularpro book";
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
 }
