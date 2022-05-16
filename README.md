@@ -1,4 +1,4 @@
-# Marco MArino Portfolio
+# Marco Marino Portfolio
 
 🔗 https://mta-gh.github.io/marco/
 
